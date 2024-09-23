@@ -11,6 +11,7 @@ class MainTableViewCell: UITableViewCell {
     
     @IBOutlet var lbName: UILabel!
     
+    @IBOutlet var lbContent: UILabel!
     static let identifier = "MainTableViewCell"
 
     override func awakeFromNib() {

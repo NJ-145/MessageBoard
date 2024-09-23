@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5643B35612F84C030A2B0D5B /* Pods_messageBoard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC9E3045DAFCA64A40789E73 /* Pods_messageBoard.framework */; };
 		7C06D7E32C92DD10003247A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C06D7E22C92DD10003247A0 /* AppDelegate.swift */; };
 		7C06D7E52C92DD10003247A0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C06D7E42C92DD10003247A0 /* SceneDelegate.swift */; };
 		7C06D7EC2C92DD12003247A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C06D7EB2C92DD12003247A0 /* Assets.xcassets */; };
@@ -14,11 +15,8 @@
 		7C06D7FB2C92DFC3003247A0 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7C06D7FA2C92DFC3003247A0 /* MainViewController.xib */; };
 		7C06D7FC2C92DFC3003247A0 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C06D7F92C92DFC3003247A0 /* MainViewController.swift */; };
 		7C06D7FE2C92E5AE003247A0 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C06D7FD2C92E5AE003247A0 /* Data.swift */; };
-		7C06D8002C92E80E003247A0 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C06D7FF2C92E80E003247A0 /* Realm.framework */; };
-		7C06D8012C92E80E003247A0 /* Realm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7C06D7FF2C92E80E003247A0 /* Realm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		7C06D8052C92F6F8003247A0 /* MainTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7C06D8042C92F6F8003247A0 /* MainTableViewCell.xib */; };
 		7C06D8062C92F6F8003247A0 /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C06D8032C92F6F8003247A0 /* MainTableViewCell.swift */; };
-		FFE9BD5A9AAED0E2E48FFF7D /* Pods_messageBoard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0439C2006C64F71C9F3103E3 /* Pods_messageBoard.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,7 +26,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				7C06D8012C92E80E003247A0 /* Realm.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -37,7 +34,6 @@
 
 /* Begin PBXFileReference section */
 		0017047008F2FF60AB5008FD /* Pods-messageBoard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-messageBoard.debug.xcconfig"; path = "Target Support Files/Pods-messageBoard/Pods-messageBoard.debug.xcconfig"; sourceTree = "<group>"; };
-		0439C2006C64F71C9F3103E3 /* Pods_messageBoard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_messageBoard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EAF9BFAE21D51750ADE8445 /* Pods-messageBoard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-messageBoard.release.xcconfig"; path = "Target Support Files/Pods-messageBoard/Pods-messageBoard.release.xcconfig"; sourceTree = "<group>"; };
 		7C06D7DF2C92DD10003247A0 /* messageBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = messageBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C06D7E22C92DD10003247A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -48,9 +44,9 @@
 		7C06D7F92C92DFC3003247A0 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		7C06D7FA2C92DFC3003247A0 /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
 		7C06D7FD2C92E5AE003247A0 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
-		7C06D7FF2C92E80E003247A0 /* Realm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Realm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C06D8032C92F6F8003247A0 /* MainTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
 		7C06D8042C92F6F8003247A0 /* MainTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainTableViewCell.xib; sourceTree = "<group>"; };
+		FC9E3045DAFCA64A40789E73 /* Pods_messageBoard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_messageBoard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C06D8002C92E80E003247A0 /* Realm.framework in Frameworks */,
-				FFE9BD5A9AAED0E2E48FFF7D /* Pods_messageBoard.framework in Frameworks */,
+				5643B35612F84C030A2B0D5B /* Pods_messageBoard.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,8 +73,7 @@
 		4A3976F16D3FD4A4AE472399 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				7C06D7FF2C92E80E003247A0 /* Realm.framework */,
-				0439C2006C64F71C9F3103E3 /* Pods_messageBoard.framework */,
+				FC9E3045DAFCA64A40789E73 /* Pods_messageBoard.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
