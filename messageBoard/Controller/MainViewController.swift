@@ -40,6 +40,8 @@ class MainViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setUi()
+        let realm = try! Realm()
+        print(realm)
     }
     
     // MARK: - UI Settings
@@ -58,6 +60,7 @@ class MainViewController: UIViewController {
         for message in message_Boards {
             messageArray.append(message)
         }
+        print(message_Boards)
         print("file: \(realm.configuration.fileURL!)")
         
         tbvMessage.layer.cornerRadius = 10  // 設定圓角半徑
@@ -69,10 +72,7 @@ class MainViewController: UIViewController {
         
         let realm = try! Realm()
         
-        
-        
         if btnSent.currentTitle == "編輯" {
-            
             try! realm.write {
                 edit_cell?.name = self.txfName.text ?? ""
                 edit_cell?.messageContent = self.txvMessage.text ?? ""
